@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.scoreboardContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboardTitle {
+  font-size: 5rem;
+  width: 100%
+}
+
+.scoreboard {
+  width: 650px;
+  max-width: 100%;
+  display: inline-flex;
+  background-color: slategray;
+}
+
+.scoreElement {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Anton'
+}
+
+.playerScore {
+  font-size: 4rem;
+  flex: 3;
+}
+
+.roundInfo {
+  font-size: 1.5rem;
+  text-align: center;
+  height: 100%;
+  flex: 1
+}
+
+.round {
+  font-size: 0.7rem;
+}
+
+.playerName {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: gray;
+  font-family: 'Orbitron';
+}

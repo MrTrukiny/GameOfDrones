@@ -1,0 +1,42 @@
+.Home {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.container img {
+  width: 250px;
+  height: 300px;
+}
+
+.GameElements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.GameElements img {
+  width: 200px;
+  height: 200px;
+}
+
+.Link {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .container img:first-child {
+    visibility: hidden
+  }
+}

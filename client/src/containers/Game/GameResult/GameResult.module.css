@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.gameResult{
+    background: slateblue;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Orbitron;
+    padding: 30px;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.playButton {
+  cursor: pointer;
+}
