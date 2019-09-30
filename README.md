@@ -43,7 +43,7 @@ npm run client
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-Also, you can se the demo here: [Game of Drones demo](https://reactify-mrtrukiny.netlify.com)
+Also, you can se the demo here: [Game of Drones demo](https://game-of-drones-mrtrukiny.herokuapp.com/)
 
 ## Deployment
 
